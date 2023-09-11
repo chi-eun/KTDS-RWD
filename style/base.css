@@ -24,6 +24,7 @@ body {
     "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     sans-serif;
   background-color: #fff;
+  font-weight: 400;
 }
 
 /* 유연한 미디어 */
