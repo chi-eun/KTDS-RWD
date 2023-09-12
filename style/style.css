@@ -32,7 +32,7 @@
 }
 
 @media (min-width: 768px){
-    .bookWrapper {
+    .otherWrapper {
         width: 100%;
         display: flex;
         flex-flow:row nowrap;
