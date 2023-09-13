@@ -210,6 +210,30 @@ fieldset {
     height: 100%;
 }
 
+/* 공통트위터 */
+.twitter__container {
+    background: yellow;
+    display: flow-root;
+}
+.twitter__userInfo {
+    display: inline-flex;
+    background: aqua;
+}
+
+.twitter__userProfile {
+    width: 100px;
+    float: right;
+    width: 20%;
+    shape-outside: circle(50%);
+
+
+}
+.twitter__userProfileImage {
+    border-radius: 50%;
+    aspect-ratio:  1/1;  
+    object-fit: cover;
+    object-position: 30% 40%;
+}
 
 /* 모바일 디바이스 */
 @media (min-width: 320px) and (max-width: 767px) {
@@ -371,7 +395,7 @@ fieldset {
     grid-gap: var(--spacing-lg);
     grid-template-areas: 
     "news news news news news news news news news news news news "
-    "book book book book . favorite favorite favorite twitter twitter twitter twitter"
+    "book book book book . twitter twitter twitter twitter favorite favorite favorite"
     "book book book book . board board board board board board board ";
    
   }
@@ -402,6 +426,7 @@ fieldset {
     /* grid-row : 3/4;
     grid-column: 6/13; */
     grid-area: board;
+    ddd
   }
 
 }
